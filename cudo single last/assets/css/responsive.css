@@ -1,0 +1,94 @@
+@media only screen and (max-width:992px) {
+    .container {
+        max-width: 900px;
+    }
+
+    #nav_header {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .noutbooks {
+        justify-content: center;
+    }
+
+    .team_body {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+
+@media only screen and (max-width:768px) {
+    .container {
+        max-width: 700px;
+    }
+
+}
+
+
+@media only screen and (max-width:567px) {
+    .container {
+        max-width: 500px;
+    }
+
+    #nav_header img {
+        margin-left: 70px;
+    }
+
+    #nav_header ul li {
+        margin-right: 20px;
+        line-height: 40px;
+    }
+
+    #workers h1 {
+        font-size: 20px;
+    }
+
+    #statistics h1 {
+        font-size: 20px;
+    }
+
+    #portfolio p {
+        line-height: 40px;
+        margin-left: 5px;
+    }
+
+    #portfolio ul {
+        display: block;
+        line-height: 60px;
+        font-size: 30px;
+        padding: 0px 20px;
+    }
+
+    .noutbooks img {
+        height: 175px;
+        width: 270px;
+    }
+
+
+    .team h1 {
+        font-size: 20px;
+    }
+
+    /* #team article img {
+        flex-direction: column; */
+
+    #form h1 {
+        font-size: 20px;
+
+    }
+
+
+
+
+
+
+    #footer_nav ul{
+        flex-direction: column;
+        font-size: 30px;
+        margin-left: 50px;
+    }
+
+
+}
